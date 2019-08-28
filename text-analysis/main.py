@@ -55,11 +55,9 @@ if __name__ =="__main__":
     ##stemming, remove punctutation?
 
    ##list of interesting things to try:
-
-
     words = docs['tokenizer'][1]
     fdist = nltk.FreqDist(words)
-    print(fdist.most_common(50))
+    #print(fdist.most_common(50))
 
 #https://stackoverflow.com/questions/56000266/counting-the-frequency-of-each-word-in-a-dataframe-column
 #https://likegeeks.com/nlp-tutorial-using-python-nltk/
