@@ -1,5 +1,6 @@
 
 import nltk
+from nltk.stem import WordNetLemmatizer 
 import utils
 import pandas as pd
 import psycopg2
@@ -41,15 +42,17 @@ def identify_tokens(row):
     description = row['description']
     tokens = nltk.word_tokenize(description)
     token_words = [w for w in tokens if w.isalpha()]
-
+    
     return token_words
 
 def it_stop_words(row):
-    ##too lazy to look up args to .apply
+    ##this creates a column with tokens,  no stop words and lemmatizer
     stop_words=set(stopwords.words("english"))
     description = row['description']
     tokens = nltk.word_tokenize(description)
     token_words = [w for w in tokens if w.isalpha() and w not in stop_words]
+    lemmatizer = WordNetLemmatizer()
+    token_words = [lemmatizer.lemmatize(token) for token in token_words]
     return token_words
 
 def find_ngrams(input_list, n):
@@ -68,38 +71,47 @@ if __name__ =="__main__":
 
     #processing, make lower case,  create a column that has tokenizer, removing punctutation (no stemming yet).
     docs['description'] = docs['description'].str.lower()
-    docs['description_tokenizer'] = docs.apply(identify_tokens, axis=1)
-    docs['description_tokenizer_stopwords'] = docs.apply(it_stop_words, axis=1)
+    docs['description_tokens'] = docs.apply(identify_tokens, axis=1)
 
-    #get ngrams in columns
+    #this takes out stop words and does lem
+    docs['description_tokens_processed'] = docs.apply(it_stop_words, axis=1)
+
+    ####get ngrams in columns####
     docs['2grams'] = docs['description'].map(lambda x: find_ngrams(x.split(" "), 2))
     docs['3grams'] = docs['description'].map(lambda x: find_ngrams(x.split(" "), 3))
     docs['4grams'] = docs['description'].map(lambda x: find_ngrams(x.split(" "), 4))
     docs['5grams'] = docs['description'].map(lambda x: find_ngrams(x.split(" "), 5))
 
-    #example of ngram counting
-    grams2 = docs['2grams'].tolist()
-    grams2 = list(chain(*grams2))
-    grams2 = [(x.lower(), y.lower()) for x,y in grams2]
 
-    ##give me a full frequency dist and plot them
-    all_stopwords  = docs['description_tokenizer_stopwords'].tolist()
+    docs.to_csv (r'additional.csv', index = None, header=True)
+    exit()
+
+    #example of ngram counting###
+    ##grams2 = docs['2grams'].tolist()
+    ##grams2 = list(chain(*grams2))
+    ##grams2 = [(x.lower(), y.lower()) for x,y in grams2]
+
+
+    ##give me a full frequency dist and plot them###
+    all_stopwords  = docs['description_tokens_processed'].tolist()
     fdist = nltk.FreqDist(list(chain.from_iterable(all_stopwords)))
-    #print(fdist.most_common(30))
-    #fdist.plot(30,cumulative=False)
+    print(fdist.most_common(30))
+    fdist.plot(30,cumulative=False)
     plt.show()
 
     #example of how to do get frequencies for level 6 docs
     #docs = docs.loc[docs['level'] == '6']
-    docs4.to_csv (r'export_dataframe.csv', index = None, header=True)
-    all_stopwords  = docs['description_tokenizer_stopwords'].tolist()
+    all_stopwords  = docs['description_tokens_processed'].tolist()
     fdist = nltk.FreqDist(list(chain.from_iterable(all_stopwords)))
-    #print(fdist.most_common(50))
+    print(fdist.most_common(50))
     fdist.plot(30,cumulative=False)
-    #plt.show()
+    plt.show()
 
+    ##
    
-    docs.to_csv (r'additional.csv', index = None, header=True)
+
+  ## example of writing to csv
+
 
 
 
