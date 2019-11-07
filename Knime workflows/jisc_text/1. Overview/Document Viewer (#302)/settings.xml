@@ -14,8 +14,8 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.frequencies.df.DfNodeFactory"/>
-<entry key="node-name" type="xstring" value="DF"/>
+<entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.view.documentviewer2.DocumentViewer2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Document Viewer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.textprocessing"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -25,20 +25,22 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="4.0.0.v201908091514"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="DF"/>
+<entry key="name" type="xstring" value="Document Viewer"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
-<config key="ports">
-<config key="port_1">
-<entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 98873, Cols: 3"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<config key="ports"/>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_0"/>
+</config>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e100685e-9d2b-420e-83ef-14074d93bfd2"/>
+<entry key="file_store_id" type="xstring" value="f82464d0-94f3-4605-a87e-60207f9ac725"/>
 </config>
 </config>

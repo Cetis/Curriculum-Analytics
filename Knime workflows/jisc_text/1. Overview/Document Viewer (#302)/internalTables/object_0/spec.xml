@@ -3,7 +3,7 @@
 <entry key="spec_name" type="xstring" value="default"/>
 <entry key="number_columns" type="xint" value="2"/>
 <config key="column_spec_0">
-<entry key="column_name" type="xstring" value="Preprocessed Document"/>
+<entry key="column_name" type="xstring" value="Document"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -14,12 +14,12 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_1">
-<entry key="column_name" type="xstring" value="Term"/>
+<entry key="column_name" type="xstring" value="Preprocessed Document"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.ext.textprocessing.data.TermCell2"/>
+<entry key="cell_class" type="xstring" value="org.knime.ext.textprocessing.data.filestore.DocumentBufferedFileStoreCell"/>
 </config>
 <config key="column_domain"/>
 <config key="column_properties"/>

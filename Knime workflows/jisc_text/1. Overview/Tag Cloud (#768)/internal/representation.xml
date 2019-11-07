@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
+<config key="data">
+<entry key="numSettings" type="xint" value="55"/>
+<config key="0">
+<entry key="id" type="xstring" value="tag_1"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="Row0"/>
+<entry key="1" type="xstring" value="Row30"/>
+<entry key="2" type="xstring" value="Row40"/>
+<entry key="3" type="xstring" value="Row50"/>
+<entry key="4" type="xstring" value="Row60"/>
+<entry key="5" type="xstring" value="Row70"/>
+<entry key="6" type="xstring" value="Row80"/>
+<entry key="7" type="xstring" value="Row90"/>
+<entry key="8" type="xstring" value="Row10"/>
+<entry key="9" type="xstring" value="Row20"/>
+</config>
+<entry key="text" type="xstring" value="module"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="2655.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="1">
+<entry key="id" type="xstring" value="tag_5"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xstring" value="Row51"/>
+<entry key="1" type="xstring" value="Row61"/>
+<entry key="2" type="xstring" value="Row72"/>
+<entry key="3" type="xstring" value="Row81"/>
+<entry key="4" type="xstring" value="Row91"/>
+<entry key="5" type="xstring" value="Row46"/>
+<entry key="6" type="xstring" value="Row4"/>
+<entry key="7" type="xstring" value="Row11"/>
+<entry key="8" type="xstring" value="Row21"/>
+<entry key="9" type="xstring" value="Row31"/>
+</config>
+<entry key="text" type="xstring" value="students"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="1553.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="2">
+<entry key="id" type="xstring" value="tag_18"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Row73"/>
+<entry key="1" type="xstring" value="Row56"/>
+<entry key="2" type="xstring" value="Row22"/>
+<entry key="3" type="xstring" value="Row33"/>
+<entry key="4" type="xstring" value="Row86"/>
+</config>
+<entry key="text" type="xstring" value="skills"/>
+<entry key="color" type="xstring" value="#B15928"/>
+<entry key="size" type="xdouble" value="560.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="3">
+<entry key="id" type="xstring" value="tag_2"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Row74"/>
+<entry key="1" type="xstring" value="Row1"/>
+<entry key="2" type="xstring" value="Row28"/>
+<entry key="3" type="xstring" value="Row32"/>
+<entry key="4" type="xstring" value="Row53"/>
+</config>
+<entry key="text" type="xstring" value="Students"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="526.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="4">
+<entry key="id" type="xstring" value="tag_36"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row52"/>
+<entry key="1" type="xstring" value="Row71"/>
+</config>
+<entry key="text" type="xstring" value="research"/>
+<entry key="color" type="xstring" value="#FF7F00"/>
+<entry key="size" type="xdouble" value="380.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="5">
+<entry key="id" type="xstring" value="tag_22"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Row85"/>
+<entry key="1" type="xstring" value="Row95"/>
+<entry key="2" type="xstring" value="Row39"/>
+<entry key="3" type="xstring" value="Row26"/>
+</config>
+<entry key="text" type="xstring" value="develop"/>
+<entry key="color" type="xstring" value="#B15928"/>
+<entry key="size" type="xdouble" value="374.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="6">
+<entry key="id" type="xstring" value="tag_21"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row25"/>
+<entry key="1" type="xstring" value="Row75"/>
+<entry key="2" type="xstring" value="Row97"/>
+</config>
+<entry key="text" type="xstring" value="aims"/>
+<entry key="color" type="xstring" value="#B15928"/>
+<entry key="size" type="xdouble" value="299.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="7">
+<entry key="id" type="xstring" value="tag_47"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row92"/>
+<entry key="1" type="xstring" value="Row69"/>
+<entry key="2" type="xstring" value="Row79"/>
+</config>
+<entry key="text" type="xstring" value="knowledge"/>
+<entry key="color" type="xstring" value="#CC79A7"/>
+<entry key="size" type="xdouble" value="269.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="8">
+<entry key="id" type="xstring" value="tag_43"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row93"/>
+<entry key="1" type="xstring" value="Row78"/>
+<entry key="2" type="xstring" value="Row65"/>
+</config>
+<entry key="text" type="xstring" value="understanding"/>
+<entry key="color" type="xstring" value="#CC79A7"/>
+<entry key="size" type="xdouble" value="263.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="9">
+<entry key="id" type="xstring" value="tag_39"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Row58"/>
+<entry key="1" type="xstring" value="Row89"/>
+<entry key="2" type="xstring" value="Row76"/>
+<entry key="3" type="xstring" value="Row64"/>
+</config>
+<entry key="text" type="xstring" value="study"/>
+<entry key="color" type="xstring" value="#FF7F00"/>
+<entry key="size" type="xdouble" value="249.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="10">
+<entry key="id" type="xstring" value="tag_52"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row96"/>
+<entry key="1" type="xstring" value="Row87"/>
+</config>
+<entry key="text" type="xstring" value="learning"/>
+<entry key="color" type="xstring" value="#000000"/>
+<entry key="size" type="xdouble" value="197.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="11">
+<entry key="id" type="xstring" value="tag_19"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row23"/>
+<entry key="1" type="xstring" value="Row54"/>
+</config>
+<entry key="text" type="xstring" value="management"/>
+<entry key="color" type="xstring" value="#B15928"/>
+<entry key="size" type="xdouble" value="193.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="12">
+<entry key="id" type="xstring" value="tag_13"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row41"/>
+<entry key="1" type="xstring" value="Row14"/>
+</config>
+<entry key="text" type="xstring" value="social"/>
+<entry key="color" type="xstring" value="#E31A1C"/>
+<entry key="size" type="xdouble" value="189.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="13">
+<entry key="id" type="xstring" value="tag_20"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row24"/>
+<entry key="1" type="xstring" value="Row98"/>
+</config>
+<entry key="text" type="xstring" value="practice"/>
+<entry key="color" type="xstring" value="#B15928"/>
+<entry key="size" type="xdouble" value="188.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="14">
+<entry key="id" type="xstring" value="tag_8"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row17"/>
+<entry key="1" type="xstring" value="Row49"/>
+<entry key="2" type="xstring" value="Row7"/>
+</config>
+<entry key="text" type="xstring" value="explore"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="162.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="15">
+<entry key="id" type="xstring" value="tag_49"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row82"/>
+</config>
+<entry key="text" type="xstring" value="professional"/>
+<entry key="color" type="xstring" value="#000000"/>
+<entry key="size" type="xdouble" value="158.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="16">
+<entry key="id" type="xstring" value="tag_54"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row94"/>
+</config>
+<entry key="text" type="xstring" value="teaching"/>
+<entry key="color" type="xstring" value="#000000"/>
+<entry key="size" type="xdouble" value="142.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="17">
+<entry key="id" type="xstring" value="tag_25"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row34"/>
+</config>
+<entry key="text" type="xstring" value="production"/>
+<entry key="color" type="xstring" value="#6A3D9A"/>
+<entry key="size" type="xdouble" value="125.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="18">
+<entry key="id" type="xstring" value="tag_3"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2"/>
+</config>
+<entry key="text" type="xstring" value="policing"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="114.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="19">
+<entry key="id" type="xstring" value="tag_26"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row35"/>
+</config>
+<entry key="text" type="xstring" value="design"/>
+<entry key="color" type="xstring" value="#6A3D9A"/>
+<entry key="size" type="xdouble" value="113.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="20">
+<entry key="id" type="xstring" value="tag_27"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row36"/>
+</config>
+<entry key="text" type="xstring" value="techniques"/>
+<entry key="color" type="xstring" value="#6A3D9A"/>
+<entry key="size" type="xdouble" value="111.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="21">
+<entry key="id" type="xstring" value="tag_28"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row37"/>
+</config>
+<entry key="text" type="xstring" value="media"/>
+<entry key="color" type="xstring" value="#6A3D9A"/>
+<entry key="size" type="xdouble" value="104.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="22">
+<entry key="id" type="xstring" value="tag_29"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row38"/>
+</config>
+<entry key="text" type="xstring" value="practical"/>
+<entry key="color" type="xstring" value="#6A3D9A"/>
+<entry key="size" type="xdouble" value="100.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="23">
+<entry key="id" type="xstring" value="tag_11"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row12"/>
+</config>
+<entry key="text" type="xstring" value="issues"/>
+<entry key="color" type="xstring" value="#E31A1C"/>
+<entry key="size" type="xdouble" value="88.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="24">
+<entry key="id" type="xstring" value="tag_4"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3"/>
+</config>
+<entry key="text" type="xstring" value="police"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="87.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="25">
+<entry key="id" type="xstring" value="tag_12"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row13"/>
+</config>
+<entry key="text" type="xstring" value="psychology"/>
+<entry key="color" type="xstring" value="#E31A1C"/>
+<entry key="size" type="xdouble" value="81.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="26">
+<entry key="id" type="xstring" value="tag_14"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row15"/>
+</config>
+<entry key="text" type="xstring" value="contemporary"/>
+<entry key="color" type="xstring" value="#E31A1C"/>
+<entry key="size" type="xdouble" value="79.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="27">
+<entry key="id" type="xstring" value="tag_50"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row83"/>
+</config>
+<entry key="text" type="xstring" value="placement"/>
+<entry key="color" type="xstring" value="#000000"/>
+<entry key="size" type="xdouble" value="78.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="28">
+<entry key="id" type="xstring" value="tag_30"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row42"/>
+</config>
+<entry key="text" type="xstring" value="global"/>
+<entry key="color" type="xstring" value="#1F78B4"/>
+<entry key="size" type="xdouble" value="76.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="29">
+<entry key="id" type="xstring" value="tag_51"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row84"/>
+</config>
+<entry key="text" type="xstring" value="Professional"/>
+<entry key="color" type="xstring" value="#000000"/>
+<entry key="size" type="xdouble" value="74.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="30">
+<entry key="id" type="xstring" value="tag_55"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row99"/>
+</config>
+<entry key="text" type="xstring" value="range"/>
+<entry key="color" type="xstring" value="#000000"/>
+<entry key="size" type="xdouble" value="73.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="31">
+<entry key="id" type="xstring" value="tag_48"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row77"/>
+</config>
+<entry key="text" type="xstring" value="Research"/>
+<entry key="color" type="xstring" value="#000000"/>
+<entry key="size" type="xdouble" value="73.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="32">
+<entry key="id" type="xstring" value="tag_6"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5"/>
+</config>
+<entry key="text" type="xstring" value="crime"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="70.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="33">
+<entry key="id" type="xstring" value="tag_31"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row43"/>
+</config>
+<entry key="text" type="xstring" value="international"/>
+<entry key="color" type="xstring" value="#1F78B4"/>
+<entry key="size" type="xdouble" value="68.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="34">
+<entry key="id" type="xstring" value="tag_23"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row27"/>
+</config>
+<entry key="text" type="xstring" value="Practice"/>
+<entry key="color" type="xstring" value="#B15928"/>
+<entry key="size" type="xdouble" value="67.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="35">
+<entry key="id" type="xstring" value="tag_7"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row6"/>
+</config>
+<entry key="text" type="xstring" value="justice"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="65.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="36">
+<entry key="id" type="xstring" value="tag_53"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row88"/>
+</config>
+<entry key="text" type="xstring" value="opportunity"/>
+<entry key="color" type="xstring" value="#000000"/>
+<entry key="size" type="xdouble" value="63.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="37">
+<entry key="id" type="xstring" value="tag_9"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row8"/>
+</config>
+<entry key="text" type="xstring" value="evidence"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="60.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="38">
+<entry key="id" type="xstring" value="tag_24"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row29"/>
+</config>
+<entry key="text" type="xstring" value="designed"/>
+<entry key="color" type="xstring" value="#B15928"/>
+<entry key="size" type="xdouble" value="59.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="39">
+<entry key="id" type="xstring" value="tag_37"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row55"/>
+</config>
+<entry key="text" type="xstring" value="Fieldwork"/>
+<entry key="color" type="xstring" value="#FF7F00"/>
+<entry key="size" type="xdouble" value="58.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="40">
+<entry key="id" type="xstring" value="tag_15"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row16"/>
+</config>
+<entry key="text" type="xstring" value="society"/>
+<entry key="color" type="xstring" value="#E31A1C"/>
+<entry key="size" type="xdouble" value="57.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="41">
+<entry key="id" type="xstring" value="tag_10"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row9"/>
+</config>
+<entry key="text" type="xstring" value="criminal"/>
+<entry key="color" type="xstring" value="#33A02C"/>
+<entry key="size" type="xdouble" value="56.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="42">
+<entry key="id" type="xstring" value="tag_32"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row44"/>
+</config>
+<entry key="text" type="xstring" value="political"/>
+<entry key="color" type="xstring" value="#1F78B4"/>
+<entry key="size" type="xdouble" value="55.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="43">
+<entry key="id" type="xstring" value="tag_33"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row45"/>
+</config>
+<entry key="text" type="xstring" value="explores"/>
+<entry key="color" type="xstring" value="#1F78B4"/>
+<entry key="size" type="xdouble" value="53.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="44">
+<entry key="id" type="xstring" value="tag_38"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row57"/>
+</config>
+<entry key="text" type="xstring" value="project"/>
+<entry key="color" type="xstring" value="#FF7F00"/>
+<entry key="size" type="xdouble" value="50.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="45">
+<entry key="id" type="xstring" value="tag_34"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row47"/>
+</config>
+<entry key="text" type="xstring" value="key"/>
+<entry key="color" type="xstring" value="#1F78B4"/>
+<entry key="size" type="xdouble" value="50.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="46">
+<entry key="id" type="xstring" value="tag_17"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row19"/>
+</config>
+<entry key="text" type="xstring" value="consider"/>
+<entry key="color" type="xstring" value="#E31A1C"/>
+<entry key="size" type="xdouble" value="48.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="47">
+<entry key="id" type="xstring" value="tag_16"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row18"/>
+</config>
+<entry key="text" type="xstring" value="gender"/>
+<entry key="color" type="xstring" value="#E31A1C"/>
+<entry key="size" type="xdouble" value="48.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="48">
+<entry key="id" type="xstring" value="tag_35"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row48"/>
+</config>
+<entry key="text" type="xstring" value="world"/>
+<entry key="color" type="xstring" value="#1F78B4"/>
+<entry key="size" type="xdouble" value="47.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="49">
+<entry key="id" type="xstring" value="tag_40"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row59"/>
+</config>
+<entry key="text" type="xstring" value="science"/>
+<entry key="color" type="xstring" value="#FF7F00"/>
+<entry key="size" type="xdouble" value="45.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="50">
+<entry key="id" type="xstring" value="tag_41"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row62"/>
+</config>
+<entry key="text" type="xstring" value="ecology"/>
+<entry key="color" type="xstring" value="#CC79A7"/>
+<entry key="size" type="xdouble" value="45.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="51">
+<entry key="id" type="xstring" value="tag_42"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row63"/>
+</config>
+<entry key="text" type="xstring" value="health"/>
+<entry key="color" type="xstring" value="#CC79A7"/>
+<entry key="size" type="xdouble" value="44.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="52">
+<entry key="id" type="xstring" value="tag_44"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row66"/>
+</config>
+<entry key="text" type="xstring" value="exercise"/>
+<entry key="color" type="xstring" value="#CC79A7"/>
+<entry key="size" type="xdouble" value="43.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="53">
+<entry key="id" type="xstring" value="tag_45"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row67"/>
+</config>
+<entry key="text" type="xstring" value="change"/>
+<entry key="color" type="xstring" value="#CC79A7"/>
+<entry key="size" type="xdouble" value="39.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+<config key="54">
+<entry key="id" type="xstring" value="tag_46"/>
+<config key="rowIDs">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row68"/>
+</config>
+<entry key="text" type="xstring" value="past"/>
+<entry key="color" type="xstring" value="#CC79A7"/>
+<entry key="size" type="xdouble" value="38.0"/>
+<entry key="opacity" type="xdouble" value="0.0"/>
+</config>
+</config>
+<entry key="tableID" type="xstring" value="94f217d4-3445-429b-8b5d-ca0375204d42"/>
+<config key="subscriptionFilterIds">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="warningMessages">
+<entry key="numSettings" type="xint" value="0"/>
+</config>
+<entry key="imageGeneration" type="xboolean" value="false"/>
+<entry key="warningsInView" type="xboolean" value="true"/>
+<entry key="resizeToWindow" type="xboolean" value="true"/>
+<entry key="imageWidth" type="xint" value="800"/>
+<entry key="imageHeight" type="xint" value="600"/>
+<entry key="displayFullscreenButton" type="xboolean" value="true"/>
+<entry key="displayRefreshButton" type="xboolean" value="true"/>
+<entry key="disableAnimations" type="xboolean" value="false"/>
+<entry key="colorProp" type="xboolean" value="true"/>
+<entry key="font" type="xstring" value="Impact"/>
+<entry key="fontBold" type="xboolean" value="false"/>
+<entry key="enableViewConfiguration" type="xboolean" value="true"/>
+<entry key="enableTitleChange" type="xboolean" value="true"/>
+<entry key="enableSubtitleChange" type="xboolean" value="true"/>
+<entry key="enableFontSizeChange" type="xboolean" value="true"/>
+<entry key="enableScaleTypeChange" type="xboolean" value="true"/>
+<entry key="enableSpiralTypeChange" type="xboolean" value="true"/>
+<entry key="enableNumOrientationsChange" type="xboolean" value="true"/>
+<entry key="enableAnglesChange" type="xboolean" value="true"/>
+<entry key="enableSelection" type="xboolean" value="true"/>
+<entry key="selectionColor" type="xstring" value="#333333"/>
+<entry key="enableShowSelectedOnly" type="xboolean" value="true"/>
+<entry key="displayClearSelectionButton" type="xboolean" value="true"/>
+</config>
